@@ -1,0 +1,17 @@
+dimensions:
+  - variable
+  - region
+repositories:
+  common-definitions:
+    url: https://github.com/IAMconsortium/common-definitions.git/
+definitions:
+  variable:
+    repository: common-definitions
+  region:
+    repository:
+      name: common-definitions
+      include:
+        - hierarchy: common
+        - hierarchy: R5
+        - hierarchy: R9
+        - hierarchy: R10
