@@ -15,3 +15,9 @@ definitions:
         - hierarchy: R5
         - hierarchy: R9
         - hierarchy: R10
+        - hierarchy: IMACLIM 2.0
+mappings:
+  repository:
+    name: common-definitions
+    include:
+      - IMACLIM 2.0
