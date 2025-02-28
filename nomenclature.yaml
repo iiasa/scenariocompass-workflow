@@ -15,9 +15,12 @@ definitions:
         - hierarchy: R5
         - hierarchy: R9
         - hierarchy: R10
+        - hierarchy: G20 Members
         - hierarchy: IMACLIM 2.0
+        - hierarchy: COFFEE 1.5
 mappings:
   repository:
     name: common-definitions
     include:
       - IMACLIM 2.0
+      - COFFEE 1.5
