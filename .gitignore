@@ -1,6 +1,9 @@
 ### Common definitions
 common-definitions/
 
+### Data folder for migration
+transfer/
+
 ### IntelliJ PyCharm ###
 .idea/
 
