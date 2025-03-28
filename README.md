@@ -7,4 +7,5 @@ Copyright 2025 IIASA
 ## Overview
 
 This is the workflow repository for the Scenario Compass Initiative.
+
 Visit https://scenariocompass.org for more information.
