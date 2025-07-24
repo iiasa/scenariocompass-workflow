@@ -1,5 +1,5 @@
 # Set sustainable bioenergy use as upper bound
-- name: Plausibility Vetting|Hydropower Capacity|2030
+- name: Plausibility Vetting|Hydropower Capacity|World|2030
   variable: Capacity|Electricity|Hydro
   region: World
   year: 2030
@@ -10,7 +10,7 @@
     - warning_level: medium
       upper_bound: 1606.66  # GW
       lower_bound: 1175.37  # GW
-- name: Plausibility Vetting|Nuclear Capacity|2030
+- name: Plausibility Vetting|Nuclear Capacity|World|2030
   variable: Capacity|Electricity|Nuclear
   region: World
   year: 2030
@@ -21,7 +21,7 @@
     - warning_level: medium
       upper_bound: 441.92  # GW
       lower_bound: 320.33  # GW
-- name: Plausibility Vetting|Onshore Wind Capacity|2025
+- name: Plausibility Vetting|Onshore Wind Capacity|World|2025
   variable: Capacity|Electricity|Wind|Onshore
   region: World
   year: 2025
@@ -32,7 +32,7 @@
     - warning_level: medium
       upper_bound: 1570.0  # GW
       lower_bound: 1138.0  # GW
-- name: Plausibility Vetting|Onshore Wind Capacity|2030
+- name: Plausibility Vetting|Onshore Wind Capacity|World|2030
   variable: Capacity|Electricity|Wind|Onshore
   region: World
   year: 2030
