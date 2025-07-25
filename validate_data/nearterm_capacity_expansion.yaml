@@ -37,6 +37,9 @@
   region: World
   year: 2030
   validation:
+    - warning_level: high
+      upper_bound: 3655.0  # GW
+      lower_bound: 1220.0  # GW
     - warning_level: medium
       upper_bound: 2853.0  # GW
       lower_bound: 1719.0  # GW
