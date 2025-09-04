@@ -1,5 +1,5 @@
 # Set sustainable bioenergy use as upper bound
-- name: Reason For Concern|Sustainable Bioenergy Use|World
+- name: Sustainability Concern|Sustainable Bioenergy Use|World
   variable: Primary Energy|Biomass
   region: World
   validation:
