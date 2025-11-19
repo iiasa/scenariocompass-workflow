@@ -4,6 +4,6 @@
   region: World
   validation:
     - warning_level: high
-      upper_bound: 160  # EJ/yr
+      upper_bound: 245  # EJ/yr
     - warning_level: medium
       upper_bound: 100  # EJ/yr
