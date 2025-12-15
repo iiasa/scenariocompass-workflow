@@ -9,7 +9,7 @@
       lower_bound: 0        # Mt CO2/yr
     - warning_level: medium
       upper_bound: 152.47   # Mt CO2/yr
-      lower_bound: 44.02	  # Mt CO2/yr
+      lower_bound: 44.02    # Mt CO2/yr
 # Set bounds for feasible long-term carbon capture
   - name: Feasibility Concern|Carbon Capture|World|2035
   variable: Carbon Capture
