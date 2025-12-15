@@ -10,8 +10,9 @@
     - warning_level: medium
       upper_bound: 152.47   # Mt CO2/yr
       lower_bound: 44.02    # Mt CO2/yr
+
 # Set bounds for feasible long-term carbon capture
-  - name: Feasibility Concern|Carbon Capture|World|2035
+- name: Feasibility Concern|Carbon Capture|World|2035
   variable: Carbon Capture
   region: World
   year: 2035
@@ -19,7 +20,7 @@
     - warning_level: medium
       upper_bound: 1300     # Mt CO2/yr
 
-    - name: Feasibility Concern|Carbon Capture|World|2040
+- name: Feasibility Concern|Carbon Capture|World|2040
   variable: Carbon Capture
   region: World
   year: 2040
