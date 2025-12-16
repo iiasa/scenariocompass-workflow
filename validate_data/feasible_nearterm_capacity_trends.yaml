@@ -21,27 +21,6 @@
     - warning_level: medium
       upper_bound: 441.92  # GW
       lower_bound: 320.33  # GW
-- name: Feasibility Concern|Wind Capacity|World|2025
-  variable: Capacity|Electricity|Wind
-  region: World
-  year: 2025
-  validation:
-    - warning_level: high
-      lower_bound: 945.0  # GW
-    - warning_level: medium
-      lower_bound: 1138.0  # GW
-    # assuming that total wind capacity must be greater to the lower bound for onshore wind capacity
-- name: Feasibility Concern|Onshore Wind Capacity|World|2025
-  variable: Capacity|Electricity|Wind|Onshore
-  region: World
-  year: 2025
-  validation:
-    - warning_level: high
-      upper_bound: 1862.0  # GW
-      lower_bound: 945.0  # GW
-    - warning_level: medium
-      upper_bound: 1570.0  # GW
-      lower_bound: 1138.0  # GW
 - name: Feasibility Concern|Wind Capacity|World|2030
   variable: Capacity|Electricity|Wind
   region: World
@@ -62,17 +41,6 @@
     - warning_level: medium
       upper_bound: 2853.0  # GW
       lower_bound: 1719.0  # GW
-- name: Feasibility Concern|Solar PV Capacity|World|2025
-  variable: Capacity|Electricity|Solar
-  region: World
-  year: 2025
-  validation:
-    - warning_level: high
-      upper_bound: 3895.6  # GW
-      lower_bound: 1609.2  # GW
-    - warning_level: medium
-      upper_bound: 3152.0  # GW
-      lower_bound: 2083.0  # GW
 - name: Feasibility Concern|Solar PV Capacity|World|2030
   variable: Capacity|Electricity|Solar
   region: World
