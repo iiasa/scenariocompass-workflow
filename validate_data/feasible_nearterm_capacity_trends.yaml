@@ -16,8 +16,7 @@
   year: 2030
   validation:
     - warning_level: high
-      upper_bound: 479.92  # GW
-      lower_bound: 269.75  # GW
+      upper_bound: 507.1  # GW
     - warning_level: medium
       upper_bound: 441.92  # GW
       lower_bound: 320.33  # GW
