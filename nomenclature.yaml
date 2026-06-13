@@ -19,6 +19,7 @@ definitions:
         - hierarchy: CGEM-ESM 1.0
         - hierarchy: COFFEE 1.5
         - hierarchy: IMACLIM 2.0
+        - hierarchy: GCAM 6.0
         - hierarchy: MINES 0.1.0
         - hierarchy: POLES 2.4
         - hierarchy: REMIND-MAgPIE 3.2-4.8
@@ -31,6 +32,7 @@ mappings:
       - CGEM-ESM 1.0
       - COFFEE 1.5
       - IMACLIM 2.0
+      - GCAM 6.0
       - MINES 0.1.0
       - POLES 2.4
       - REMIND-MAgPIE 3.2-4.8
