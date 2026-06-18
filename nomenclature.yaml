@@ -16,6 +16,7 @@ definitions:
         - hierarchy: R9
         - hierarchy: R10
         - hierarchy: Regional Organizations
+        - hierarchy: C3IAM 3.0
         - hierarchy: CGEM-ESM 1.0
         - hierarchy: COFFEE 1.5
         - hierarchy: IMACLIM 2.0
@@ -28,6 +29,7 @@ mappings:
   repository:
     name: common-definitions
     include:
+      - C3IAM 3.0
       - CGEM-ESM 1.0
       - COFFEE 1.5
       - IMACLIM 2.0
