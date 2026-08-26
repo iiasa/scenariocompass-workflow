@@ -22,6 +22,7 @@ definitions:
         - hierarchy: IMACLIM 2.0
         - hierarchy: IMAGE 3.4
         - hierarchy: GCAM 6.0
+        - hierarchy: GCAM 8.2
         - hierarchy: GTIMES-Tsinghua v1.1
         - hierarchy: GTIMES-Tsinghua v2.0
         - hierarchy: MINES 0.1.0
@@ -39,6 +40,7 @@ mappings:
       - IMACLIM 2.0
       - IMAGE 3.4
       - GCAM 6.0
+      - GCAM-PKU 8.2
       - GTIMES-Tsinghua v1.1
       - GTIMES-Tsinghua v2.0
       - MINES 0.1.0
