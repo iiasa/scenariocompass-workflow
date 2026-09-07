@@ -21,6 +21,7 @@ definitions:
         - hierarchy: COFFEE 1.5
         - hierarchy: IMACLIM 2.0
         - hierarchy: IMAGE 3.4
+        - hierarchy: GCAM 5.2
         - hierarchy: GCAM 6.0
         - hierarchy: GCAM 7.0
         - hierarchy: GCAM 8.2
@@ -40,6 +41,7 @@ mappings:
       - COFFEE 1.5
       - IMACLIM 2.0
       - IMAGE 3.4
+      - GCAM-CEEW 5.2
       - GCAM 6.0
       - GCAM-PKU 7.0
       - GCAM-PKU 8.2
