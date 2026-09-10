@@ -20,6 +20,8 @@ definitions:
         - hierarchy: CGEM-ESM 1.0
         - hierarchy: COFFEE 1.5
         - hierarchy: IMACLIM 2.0
+        - hierarchy: IMAGE 3.2
+        - hierarchy: IMAGE 3.3
         - hierarchy: IMAGE 3.4
         - hierarchy: GCAM 5.2
         - hierarchy: GCAM 6.0
@@ -41,6 +43,8 @@ mappings:
       - CGEM-ESM 1.0
       - COFFEE 1.5
       - IMACLIM 2.0
+      - IMAGE 3.2
+      - IMAGE 3.3
       - IMAGE 3.4
       - GCAM-CEEW 5.2
       - GCAM 6.0
