@@ -19,6 +19,7 @@ definitions:
         - hierarchy: C3IAM 3.0
         - hierarchy: CGEM-ESM 1.0
         - hierarchy: COFFEE 1.5
+        - hierarchy: EPPA 8
         - hierarchy: IMACLIM 2.0
         - hierarchy: IMAGE 3.2
         - hierarchy: IMAGE 3.3
@@ -47,6 +48,7 @@ mappings:
       - IMAGE 3.2
       - IMAGE 3.3
       - IMAGE 3.4
+      - EPPA 8
       - GCAM-CEEW 5.2
       - GCAM 6.0
       - GCAM-PKU 7.0
