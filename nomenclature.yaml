@@ -16,6 +16,10 @@ definitions:
         - hierarchy: R9
         - hierarchy: R10
         - hierarchy: Regional Organizations
+        - hierarchy: AIM-Technology 2.0
+        - hierarchy: AIM 2.2
+        - hierarchy: AIM 2.4
+        - hierarchy: AIM 3.0
         - hierarchy: C3IAM 3.0
         - hierarchy: CGEM-ESM 1.0
         - hierarchy: COFFEE 1.5
@@ -41,6 +45,12 @@ mappings:
   repository:
     name: common-definitions
     include:
+      - AIM-Technology 2.0
+      - AIM-Hub-MESSAGEix 2.2
+      - AIM-Hub 2.5
+      - AIM 3.0
+      - AIM-Hub 3.0
+      - AIM-Hub-Plum-Tech 3.0
       - C3IAM 3.0
       - CGEM-ESM 1.0
       - COFFEE 1.5
