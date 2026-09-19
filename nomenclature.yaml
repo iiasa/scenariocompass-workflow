@@ -31,6 +31,7 @@ definitions:
         - hierarchy: GCAM 5.2
         - hierarchy: GCAM 6.0
         - hierarchy: GCAM 7.0
+        - hierarchy: GCAM-Europe 7.2.0
         - hierarchy: GCAM 8.2
         - hierarchy: GTIMES-Tsinghua v1.1
         - hierarchy: GTIMES-Tsinghua v2.0
@@ -61,6 +62,7 @@ mappings:
       - EPPA 8
       - GCAM-CEEW 5.2
       - GCAM 6.0
+      - GCAM-Europe-BC3 7.2.0
       - GCAM-PKU 7.0
       - GCAM-PKU 8.2
       - GCAM-China-SDU 8.2
