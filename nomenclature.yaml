@@ -37,6 +37,7 @@ definitions:
         - hierarchy: GTIMES-Tsinghua v2.0
         - hierarchy: MINES 0.1.0
         - hierarchy: POLES 2.4
+        - hierarchy: PRISM v1.0
         - hierarchy: REMIND-MAgPIE 3.2-4.6
         - hierarchy: REMIND-MAgPIE 3.2-4.8
         - hierarchy: REMIND-MAgPIE 3.4-4.9
@@ -70,6 +71,7 @@ mappings:
       - GTIMES-Tsinghua v2.0
       - MINES 0.1.0
       - POLES 2.4
+      - PRISM v1.0
       - REMIND-MAgPIE 3.2-4.6
       - REMIND-MAgPIE 3.2-4.8
       - REMIND-MAgPIE 3.4-4.9
