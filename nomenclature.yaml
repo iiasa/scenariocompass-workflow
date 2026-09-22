@@ -28,6 +28,7 @@ definitions:
         - hierarchy: IMAGE 3.2
         - hierarchy: IMAGE 3.3
         - hierarchy: IMAGE 3.4
+        - hierarchy: IMED V1.0
         - hierarchy: GCAM 5.2
         - hierarchy: GCAM 6.0
         - hierarchy: GCAM 7.0
@@ -60,6 +61,7 @@ mappings:
       - IMAGE 3.2
       - IMAGE 3.3
       - IMAGE 3.4
+      - IMED V1.0
       - EPPA 8
       - GCAM-CEEW 5.2
       - GCAM 6.0
