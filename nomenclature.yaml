@@ -34,16 +34,20 @@ definitions:
         - hierarchy: GCAM 6.0
         - hierarchy: GCAM 7.0
         - hierarchy: GCAM-Europe 7.2.0
+        - hierarchy: GCAM 8s
         - hierarchy: GCAM 8.2
         - hierarchy: GTIMES-Tsinghua v1.1
         - hierarchy: GTIMES-Tsinghua v2.0
+        - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
         - hierarchy: MINES 0.1.0
         - hierarchy: POLES 2.4
         - hierarchy: PRISM v1.0
         - hierarchy: REMIND-MAgPIE 3.2-4.6
         - hierarchy: REMIND-MAgPIE 3.2-4.8
         - hierarchy: REMIND-MAgPIE 3.4-4.9
+        - hierarchy: REMIND-MAgPIE 3.5-4.11
         - hierarchy: REMIND 3.5
+        - hierarchy: WITCH 6.0
     country: true
 mappings:
   repository:
@@ -70,14 +74,18 @@ mappings:
       - GCAM-Europe-BC3 7.2.0
       - GCAM-PKU 7.0
       - GCAM-PKU 8.2
+      - GCAM 8s
       - GCAM-China-SDU 8.2
       - GTIMES-Tsinghua v1.1
       - GTIMES-Tsinghua v2.0
       - MINES 0.1.0
+      - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
       - POLES 2.4
       - PRISM v1.0
       - ReForest-SFC 1.0.0
       - REMIND-MAgPIE 3.2-4.6
       - REMIND-MAgPIE 3.2-4.8
       - REMIND-MAgPIE 3.4-4.9
+      - REMIND-MAgPIE 3.5-4.11
       - REMIND 3.5
+      - WITCH 6.0
