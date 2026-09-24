@@ -110,3 +110,7 @@ mappings:
       - REMIND 3.6
       - REMIND 3.7
       - WITCH 6.0
+processors:
+  country:
+    - AIM-AFOLU 1.0
+    - AIM-PHI 1.0
