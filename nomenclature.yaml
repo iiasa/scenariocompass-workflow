@@ -39,6 +39,7 @@ definitions:
         - hierarchy: GTIMES-Tsinghua v1.1
         - hierarchy: GTIMES-Tsinghua v2.0
         - hierarchy: LandSyMM-PLUM 2.0
+        - hierarchy: GJP 1.0.0
         - hierarchy: MESSAGEix-GLOBIOM 1.1
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
         - hierarchy: MINES 0.1.0
@@ -81,6 +82,7 @@ mappings:
       - GTIMES-Tsinghua v1.1
       - GTIMES-Tsinghua v2.0
       - LandSyMM-PLUM 2.0
+      - GJP 1.0.0
       - MINES 0.1.0
       - MESSAGEix-GLOBIOM 1.1 Postgrowth
       - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
@@ -93,3 +95,7 @@ mappings:
       - REMIND-MAgPIE 3.5-4.11
       - REMIND 3.5
       - WITCH 6.0
+processors:
+  country:
+    - AIM-AFOLU 1.0
+    - AIM-PHI 1.0
