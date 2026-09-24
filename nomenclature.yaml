@@ -38,6 +38,7 @@ definitions:
         - hierarchy: GCAM 8.2
         - hierarchy: GTIMES-Tsinghua v1.1
         - hierarchy: GTIMES-Tsinghua v2.0
+        - hierarchy: MESSAGEix-GLOBIOM 1.1
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
         - hierarchy: MINES 0.1.0
         - hierarchy: POLES 2.4
@@ -79,6 +80,7 @@ mappings:
       - GTIMES-Tsinghua v1.1
       - GTIMES-Tsinghua v2.0
       - MINES 0.1.0
+      - MESSAGEix-GLOBIOM 1.1 Postgrowth
       - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
       - POLES 2.4
       - PRISM v1.0
