@@ -48,6 +48,7 @@ definitions:
         - hierarchy: REMIND-MAgPIE 3.5-4.11
         - hierarchy: REMIND 3.5
         - hierarchy: WITCH 6.0
+        - hierarchy: MESSAGEix-GLOBIOM 1.1
     country: true
 mappings:
   repository:
@@ -89,3 +90,4 @@ mappings:
       - REMIND-MAgPIE 3.5-4.11
       - REMIND 3.5
       - WITCH 6.0
+      - MESSAGEix-GLOBIOM 1.1 Postgrowth
