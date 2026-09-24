@@ -40,6 +40,7 @@ definitions:
         - hierarchy: GTIMES-Tsinghua v2.0
         - hierarchy: LandSyMM-PLUM 2.0
         - hierarchy: GJP 1.0.0
+        - hierarchy: MAgPIE 4.7.3-FSEC
         - hierarchy: MESSAGEix-GLOBIOM 1.1
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
         - hierarchy: MINES 0.1.0
@@ -83,6 +84,7 @@ mappings:
       - GTIMES-Tsinghua v2.0
       - LandSyMM-PLUM 2.0
       - GJP 1.0.0
+      - MAgPIE 4.7.3-FSEC
       - MINES 0.1.0
       - MESSAGEix-GLOBIOM 1.1 Postgrowth
       - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
