@@ -91,3 +91,6 @@ mappings:
       - REMIND-MAgPIE 3.5-4.11
       - REMIND 3.5
       - WITCH 6.0
+processors:
+  country:
+    - LandSyMM-PLUM 2.0
