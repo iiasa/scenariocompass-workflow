@@ -33,6 +33,7 @@ definitions:
         - hierarchy: GCAM 5.3
         - hierarchy: GCAM 6.0
         - hierarchy: GCAM 7.0
+        - hierarchy: GCAM 7.1
         - hierarchy: GCAM-Europe 7.2.0
         - hierarchy: GCAM 8s
         - hierarchy: GCAM 8.2
@@ -75,6 +76,7 @@ mappings:
       - GCAM-CEEW 5.2
       - GCAM-PR 5.3
       - GCAM 6.0
+      - GCAM-BC3 7.1
       - GCAM-Europe-BC3 7.2.0
       - GCAM-PKU 7.0
       - GCAM-PKU 8.2
