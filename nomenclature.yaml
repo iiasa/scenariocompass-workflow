@@ -37,6 +37,7 @@ definitions:
         - hierarchy: GCAM-Europe 7.2.0
         - hierarchy: GCAM 8s
         - hierarchy: GCAM 8.2
+        - hierarchy: GET 11.0
         - hierarchy: GTIMES-Tsinghua v1.1
         - hierarchy: GTIMES-Tsinghua v2.0
         - hierarchy: LandSyMM-PLUM 2.0
@@ -82,6 +83,7 @@ mappings:
       - GCAM-PKU 8.2
       - GCAM 8s
       - GCAM-China-SDU 8.2
+      - GET 11.0
       - GTIMES-Tsinghua v1.1
       - GTIMES-Tsinghua v2.0
       - LandSyMM-PLUM 2.0
