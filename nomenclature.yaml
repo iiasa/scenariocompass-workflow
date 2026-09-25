@@ -33,6 +33,7 @@ definitions:
         - hierarchy: GCAM 5.3
         - hierarchy: GCAM 6.0
         - hierarchy: GCAM 7.0
+        - hierarchy: GCAM 7.1
         - hierarchy: GCAM-Europe 7.2.0
         - hierarchy: GCAM 8s
         - hierarchy: GCAM 8.2
