@@ -52,6 +52,7 @@ definitions:
         - hierarchy: REMIND-MAgPIE 3.2-4.8
         - hierarchy: REMIND-MAgPIE 3.4-4.9
         - hierarchy: REMIND-MAgPIE 3.5-4.11
+        - hierarchy: REMIND 3.4
         - hierarchy: REMIND 3.5
         - hierarchy: REMIND 3.6
         - hierarchy: REMIND 3.7
@@ -102,6 +103,7 @@ mappings:
       - REMIND-MAgPIE 3.2-4.8
       - REMIND-MAgPIE 3.4-4.9
       - REMIND-MAgPIE 3.5-4.11
+      - REMIND 3.4
       - REMIND 3.5
       - REMIND 3.6
       - REMIND 3.7
