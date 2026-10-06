@@ -45,6 +45,7 @@ definitions:
         - hierarchy: GJP 1.0.0
         - hierarchy: MAgPIE 4.7.3-FSEC
         - hierarchy: MESSAGEix-GLOBIOM 1.1
+        - hierarchy: MESSAGEix-GLOBIOM 2.0-R12
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
         - hierarchy: MINES 0.1.0
         - hierarchy: POLES 2.4
@@ -54,6 +55,7 @@ definitions:
         - hierarchy: REMIND-MAgPIE 3.4-4.9
         - hierarchy: REMIND-MAgPIE 3.5-4.10
         - hierarchy: REMIND-MAgPIE 3.5-4.11
+        - hierarchy: REMIND-MAgPIE 3.7-4.14
         - hierarchy: REMIND 3.4
         - hierarchy: REMIND 3.5
         - hierarchy: REMIND 3.6
@@ -98,6 +100,7 @@ mappings:
       - MAgPIE 4.7.3-FSEC
       - MINES 0.1.0
       - MESSAGEix-GLOBIOM 1.1 Postgrowth
+      - MESSAGEix-GLOBIOM 2.0-M-R12
       - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
       - POLES 2.4
       - PRISM v1.0
@@ -107,6 +110,7 @@ mappings:
       - REMIND-MAgPIE 3.4-4.9
       - REMIND-MAgPIE 3.5-4.10
       - REMIND-MAgPIE 3.5-4.11
+      - REMIND-MAgPIE 3.7-4.14
       - REMIND 3.4
       - REMIND 3.5
       - REMIND 3.6
