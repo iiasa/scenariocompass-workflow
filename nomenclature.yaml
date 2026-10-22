@@ -47,6 +47,7 @@ definitions:
         - hierarchy: MESSAGEix-GLOBIOM 1.1
         - hierarchy: MESSAGEix-GLOBIOM 2.0-R12
         - hierarchy: MESSAGEix-GLOBIOM-GAINS 2.1-R12
+        - hierarchy: OPEN-PROM 2.2
         - hierarchy: MINES 0.1.0
         - hierarchy: POLES 2.4
         - hierarchy: PRISM v1.0
@@ -102,6 +103,7 @@ mappings:
       - MESSAGEix-GLOBIOM 1.1 Postgrowth
       - MESSAGEix-GLOBIOM 2.0-M-R12
       - MESSAGEix-GLOBIOM-GAINS 2.1-M-R12
+      - OPEN-PROM 2.2
       - POLES 2.4
       - PRISM v1.0
       - ReForest-SFC 1.0.0
