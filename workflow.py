@@ -3,7 +3,7 @@ from pathlib import Path
 import pyam
 from climate_processor import MAGICCProcessor, Workflow
 from nomenclature import DataStructureDefinition, RegionProcessor, process
-from scenariocompass import ScenarioCompassProcessor, ClimateCategorization
+from scenariocompass import ClimateCategorization
 
 here = Path(__file__).absolute().parent
 
@@ -15,11 +15,9 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     definition = DataStructureDefinition(here / "definitions")
     return process(
         df,
-        dsd,
+        definition,
         processor=[
-            region_processor,
             RegionProcessor.from_directory(path=here / "mappings", definition),
-            ScenarioCompassProcessor(),
             MAGICCProcessor(workflow=Workflow.SCI),
             ClimateCategorization(),
         ],
