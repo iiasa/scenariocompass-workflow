@@ -19,6 +19,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         definition,
         processor=[
             RegionProcessor.from_directory(here / "mappings", definition),
+            ScenarioCompassProcessor(),
             MAGICCProcessor(
                 workflow=Workflow.SCI_V1_1,
                 run_type=MAGICCRunType.COMPLETE,
