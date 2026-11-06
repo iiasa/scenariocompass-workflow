@@ -2,6 +2,7 @@ from pathlib import Path
 
 import pyam
 from climate_processor import MAGICCProcessor, Workflow
+from climate_processor.gcages_wrapper import SCI_OUTPUT_VARIABLES_DIAGNOSTIC
 from nomenclature import DataStructureDefinition, RegionProcessor, process
 from scenariocompass import ClimateCategorization
 
@@ -17,8 +18,12 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
         df,
         definition,
         processor=[
-            RegionProcessor.from_directory(path=here / "mappings", definition),
-            MAGICCProcessor(workflow=Workflow.SCI),
+            RegionProcessor.from_directory(here / "mappings", definition),
+            MAGICCProcessor(
+                workflow=Workflow.SCI_V1_1,
+                include_input_data=True,
+                magicc_variables=SCI_OUTPUT_VARIABLES_DIAGNOSTIC,
+            ),
             ClimateCategorization(),
         ],
     )
