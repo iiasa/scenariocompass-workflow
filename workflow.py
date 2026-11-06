@@ -4,7 +4,7 @@ import pyam
 from climate_processor import MAGICCProcessor, MAGICCRunType, Workflow
 from climate_processor.gcages_wrapper import SCI_OUTPUT_VARIABLES_DIAGNOSTIC
 from nomenclature import DataStructureDefinition, RegionProcessor, process
-from scenariocompass import ClimateCategorization
+from scenariocompass import ClimateCategorization, ScenarioCompassProcessor
 
 here = Path(__file__).absolute().parent
 
