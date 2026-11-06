@@ -1,7 +1,10 @@
 from pathlib import Path
 
 import pyam
+from climate_processor import MAGICCProcessor, MAGICCRunType, Workflow
+from climate_processor.gcages_wrapper import SCI_OUTPUT_VARIABLES_DIAGNOSTIC
 from nomenclature import DataStructureDefinition, RegionProcessor, process
+from scenariocompass import ClimateCategorization, ScenarioCompassProcessor
 
 here = Path(__file__).absolute().parent
 
@@ -10,6 +13,20 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     """Project/instance-specific workflow for scenario processing"""
 
     # Run the validation and region-processing
-    dsd = DataStructureDefinition(here / "definitions")
-    processor = RegionProcessor.from_directory(path=here / "mappings", dsd=dsd)
-    return process(df, dsd, processor=processor)
+    definition = DataStructureDefinition(here / "definitions")
+    return process(
+        df,
+        definition,
+        processor=[
+            RegionProcessor.from_directory(here / "mappings", definition),
+            ScenarioCompassProcessor(),
+            MAGICCProcessor(
+                workflow=Workflow.SCI_V1_1,
+                run_type=MAGICCRunType.COMPLETE,
+                magicc_worker_number=4,
+                include_input_data=True,
+                magicc_variables=SCI_OUTPUT_VARIABLES_DIAGNOSTIC,
+            ),
+            ClimateCategorization(),
+        ],
+    )
