@@ -1,5 +1,5 @@
-pyam-iamc >= 2.1  # the `pyam` package is released on pypi under this name
+pyam-iamc >= 3.3  # the `pyam` package is released on pypi under this name
 nomenclature-iamc >= 0.16
 sqlalchemy<2.1.0
 climate-processor @ git+https://github.com/iiasa/climate-processor.git
-scenariocompass
+scenariocompass >= 2.0
