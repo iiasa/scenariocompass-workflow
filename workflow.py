@@ -40,6 +40,8 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                 magicc_variables=SCI_OUTPUT_VARIABLES_DIAGNOSTIC,
             ).apply(df.filter(region="World"))
         )
+        # manual fix for https://github.com/iiasa/climate-processor/issues/105
+        df.rename(unit={"GtC / yr": "GtC/yr"}, inplace=True)
 
         # change suffix for backward compatibility with SCI v1.1 release format
         df.rename(
